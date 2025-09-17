@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bic
+    database: "{{ env_var('DBT_BQ_SOURCE_PROJECT') }}"  # e.g. useful-lattice-472005-i4
+    schema: hr_demo                                     # your dataset
+    loader: Cloud Data Fusion
+    tables:
+      - name: employee

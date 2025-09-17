@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: bicc
+    database: "{{ env_var('DBT_BQ_SOURCE_PROJECT') }}"  # e.g. useful-lattice-472005-i4
+    schema: hr_demo                                     # your dataset
+    loader: Cloud Data Fusion
+    tables:
+      - name: employee
+      - name: department
+      - name: fscmtopmodelam_organizationam_organizationunitpvo
+      - name: fscmtopmodelam_locationam_hrlocationspvo
+      - name: fscmtopmodelam_organizationam_organizationpvo
+      - name: fscmtopmodelam_invorgpublicviewam_inventoryorgparameterspvo
+      - name: fscmtopmodelam_analyticsserviceam_territoriestlpvo
+      - name: fscmtopmodelam_finextractam_glbiccextractam_ledgerextractpvo
+      - name: fscmtopmodelam_partiesanalyticsam_customer
+      - name: fscmtopmodelam_partiesanalyticsam_customeraccount
+      - name: fscmtopmodelam_partiesanalyticsam_custacctsiteuseloc
+      - name: fscmtopmodelam_accountbiam_flex_bi_account_vi
+      - name: fscmtopmodelam_finextractam_glbiccextractam_codecombinationextractpvo
+      - name:  fscmtopmodelam_finextractam_arbiccextractam_receiptheaderextractpvo
+      - name: fscmtopmodelam_finextractam_arbiccextractam_receivableapplicationextractpvo
+      - name: fscmtopmodelam_finextractam_arbiccextractam_paymentscheduleextractpvo
+      - name: fscmtopmodelam_finextractam_xlebiccextractam_legalentityextractpvo
+      - name: fscmtopmodelam_finextractam_cebiccextractam_bankaccountextractpvo
+      - name: fscmtopmodelam_fincebankrelationshipsam_bankaccountpvo
+      - name: fscmtopmodelam_finartoppublicmodelam_receiptmethodpvo
+      - name: fscmtopmodelam_finextractam_arbiccextractam_transactionheaderextractpvo
+
+    
+
+      
+      
+   
