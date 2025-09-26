@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: ebs
+    database: ebs
+    # schema: staging
+    schema: ebs
+    tables:
+      - name: gl_ledgers
+ 
+ 
+ 
