@@ -2,8 +2,7 @@ version: 2
 sources:
   - name: ebs
     database: ebs
-    # schema: staging
-    schema: ebs
+    schema: staging
     tables:
       - name: gl_ledgers
       - name: gl_code_combinations
