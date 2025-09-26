@@ -6,6 +6,7 @@ sources:
     tables:
       - name: gl_ledgers
       - name: gl_code_combinations
+      - name: fnd_id_flex_segments
  
  
  
