@@ -9,5 +9,5 @@ models:
     +schema: ebs     # default schema under the connected DB
     stage:
       +schema: consumption
-      +materialized: table  
+      +materialized: view  
  
