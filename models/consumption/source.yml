@@ -14,6 +14,10 @@ sources:
       - name : gl_je_lines	
       - name : gl_je_headers	
       - name : gl_je_batches
+      - name : fnd_flex_value_sets	
+      - name : fnd_flex_values_vl	
+      - name : gl_je_categories	
+      - name : gl_je_sources
  
  
  
