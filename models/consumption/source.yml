@@ -1,7 +1,7 @@
 version: 2
 sources:
   - name: ebs
-    database: ebs
+    database: dev
     schema: staging
     tables:
       - name: gl_ledgers
