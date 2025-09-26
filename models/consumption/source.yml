@@ -6,6 +6,7 @@ sources:
     schema: ebs
     tables:
       - name: gl_ledgers
+      - name: gl_code_combinations
  
  
  
