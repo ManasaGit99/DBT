@@ -10,5 +10,9 @@ models:
     stage:
       +schema: consumption
       # +materialized: view
-      
+    consumption:
+      +schema: consumption
+
+    integration_stage:
+      +schema: integration_stage_test
  
