@@ -14,5 +14,5 @@ models:
       +schema: consumption
 
     integration_stage:
-      +schema: integration_stage_test
+      +schema: integration_stage
  
